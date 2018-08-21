@@ -1,4 +1,4 @@
-package com.lfyt.mobile.android.utils;
+package com.lfyt.mobile.android.utils.core;
 
 import android.os.Build;
 import android.telephony.TelephonyManager;
@@ -7,7 +7,7 @@ import java.util.Locale;
 
 public class PhoneAPI {
 
-    PhoneAPI(){
+    public PhoneAPI(){
     }
 
     private TelephonyManager mTelephonyManager;

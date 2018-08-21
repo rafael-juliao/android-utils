@@ -9,8 +9,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lfyt.mobile.android.utils.R;
-import com.lfyt.mobile.android.utils.StringAPI;
-import com.lfyt.mobile.android.utils.VersionAPI;
+import com.lfyt.mobile.android.utils.core.StringAPI;
+import com.lfyt.mobile.android.utils.core.VersionAPI;
 
 
 public class ToastAPI {

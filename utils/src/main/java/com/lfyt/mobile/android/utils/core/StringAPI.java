@@ -1,4 +1,4 @@
-package com.lfyt.mobile.android.utils;
+package com.lfyt.mobile.android.utils.core;
 
 import android.content.Context;
 
