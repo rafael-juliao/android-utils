@@ -2,7 +2,6 @@ package com.lfyt.mobile.android.utils.view;
 
 import android.app.Application;
 import android.graphics.drawable.Drawable;
-import android.support.v4.content.ContextCompat;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
@@ -101,7 +100,7 @@ public class ToastAPI {
 
 		//Setup Text
 		TextView toastText = toastView.findViewById(android.R.id.message);
-		toastText.setTextColor(ContextCompat.getColor(application, textColor));
+		toastText.setTextColor(application.getResources().getColor(textColor));
 		toastText.setTextSize(TypedValue.COMPLEX_UNIT_SP, TOAST_TEXT_SIZE);
 
 		//toastText.setTypeface(null, Typeface.BOLD); //only text style(only bold)
